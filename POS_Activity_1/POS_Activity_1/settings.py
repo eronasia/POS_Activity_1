@@ -55,7 +55,7 @@ ROOT_URLCONF = 'POS_Activity_1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [templates/POS],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
